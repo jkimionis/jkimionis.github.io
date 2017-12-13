@@ -1,0 +1,275 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<script type="text/javascript" src="js/prototype.js"></script>
+	<script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
+	<script type="text/javascript" src="js/lightbox.js"></script>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>John Kimionis's Projects</title>
+	<meta name="keywords" content="John Kimionis, Ioannis Kimionis, ATHENA, Georgia Institute of Technology, GaTech, jkimionis, Telecom Lab, Technical University of Crete, TUC, Γιάννης Κιμιωνής, Ιωάννης Κιμιωνής, Πολυτεχνείο Κρήτης" />
+	<meta name="description" content="John Kimionis' Projects" />
+	<link href="default.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+</head>
+
+<body>
+	<div id="header">
+		<h1><a href="index.html">John Kimionis</a></h1>
+		<h2><a href="index.html">Graduate Student - Research Assistant</a></h2>
+		<h2><a href="http://www.athena.gatech.edu">ATHENA Research Group</a></h2>
+		<h2><a href="http://www.ece.gatech.edu">School of Electical &amp Computer Engineering</a></h2>
+		<h2><a href="http://www.gatech.edu">Georgia Institute of Technology</a></h2>
+	</div>
+	<div id="menu">
+		<ul>
+			<li><a href="index.html" accesskey="1" title="">Home</a></li>
+			<li><a href="publications.html" accesskey="2" title="">Theses &amp Publications</a></li>
+			<li><a href="projects.html" accesskey="3" title="">Projects &amp Demos</a></li>
+			<!--		<li><a href="resources.html" accesskey="4" title="">Resources</a></li> -->
+		</ul>
+	</div>
+	<div id="content">
+		<div id="colOne">
+
+
+
+
+
+			<a name="backscatter" />
+			<h2>Backscatter Radio - Next Generation PHYsical Layer</h2>
+
+			<h3>FIRST true long-range backscatter radio and RFID</h3>
+			<p>
+				Commercial backscatter radio (e.g. RFID) offers short ranges of a few tens of meters. We redesigned scatter radio systems and maximized the tag read range through non-conventional bistatic architectures: the carrier emitter is detached from the reader,
+				allowing multiple "backscatter celss" to be formed around a field with ver low-cost carrier generators, while still employing a single reader. Experimental measurements have proven the long-range ability of bistatic radio to ranges of more than 130
+				meters with only 20 milliwatts of carrier power. Bistatic scatter radio may be viewed as a key enabling technology for large-scale, low-cost and low-power WSNs.
+			</p>
+			<p>
+				<a href="photos/long-range-backscatter-bistatic-cells-topology.png" rel="lightbox[Backscatter]" title="Bistatic long-range backscatter network topology: Multiple low-cost carrier emitters illuminate tags around their cells; a single reader is utilized, 100+ meters away from the cells."><img src="thumbs/long-range-backscatter-bistatic-cells-topology.png" alt="" height="100" /></a>
+				<a href="photos/long-range-backscatter-bistatic-panorama.jpg" rel="lightbox[Backscatter]" title="Long range bistatic backscatter radio deployment on a roof garden. More than 100 meters range reported."><img src="thumbs/long-range-backscatter-bistatic-panorama.jpg" alt="" height="100" /></a>
+				<a href="photos/long-range-bistatic-backscatter-radio-measurements.png" rel="lightbox[Backscatter]" title="Experimental measurements prove the extreme-range capabilities of bistatic backscatter radio."><img src="thumbs/long-range-bistatic-backscatter-radio-measurements.png" alt="" height="100" /></a>
+			</p>
+
+			<h3>Backscatter Radio for Sensor Networks</h3>
+			<p>In my Diploma thesis, I had to design and implement a backscatter radio scheme (i.e. transmission by means of signal reflection and not active radiation) for sensor networks.
+			</p>
+
+			<p>Working with an experimental setup consisting of an RF Signal Generator, a Spectrum Analyzer and a semipassive tag (battery aided MCU + RF transistor) prototype, sensor information has been modulated on a strong carrier and the backscattered signal
+				power has been measured.
+			</p>
+
+			<p>Processing of the received backscattered waveforms is conducted on a Software-Defined Radio platform using an
+				<a href="http://www.ettus.com">Ettus USRP1</a> on the hardware side (RF Front end &amp ADC) and MATLAB for signal processing, on the software side.
+			</p>
+
+			<p>Complete backscatter sensor nodes were designed and built in Telecom Lab. These consist of a SiLabs C8051F320 MCU, a RF transistor and a coin battery holder. Pinouts for sensors and MCU programming are available on-board.
+			</p>
+
+			<p>
+				<a href="photos/jkimionis.jpg" rel="lightbox[Backscatter]" title="Working on the Backscatter Demo Setup. Agilent Equipment from left to right: Spectrum/Network Analyzer, Oscilloscope, RF Signal Generator. Technical University of Crete, 2010"><img src="thumbs/jkimionis.jpg" alt="" height="100" /></a>
+				<a href="photos/backscatter_node_jkimionis.jpg" rel="lightbox[Backscatter]" title="Backscatter Sensor Node designed and built in Telecom Lab, along with its coin battery."><img src="thumbs/backscatter_node_jkimionis.jpg" alt="" height="100" /></a>
+				<a href="photos/BS_received.jpg" rel="lightbox[Backscatter]" title="Received backscattered waveform at the SDR (Baseband). Notice the modulated information on top of a DC constant, with the latter corresponding to the carrier transmitted from the signal generator."><img src="thumbs/BS_received.jpg" alt="" height="100" /></a>
+			</p>
+
+			<!--
+			<p><iframe title="YouTube video player" width="300" height="200" src="http://www.youtube.com/embed/imlLchk1KDA" frameborder="0" allowfullscreen></iframe>
+				</p>
+		-->
+
+
+			<p>
+
+				<table border="0">
+					<tr>
+						<td>
+							<object width="300" height="200"><param name="WMode" value="transparent"></param><param name="movie" 			value="http://www.youtube.com/v/imlLchk1KDA?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed wmode="transparent" src="http://www.youtube.com/v/imlLchk1KDA?fs=1&amp;hl=en_US"    type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="300" height="200"></embed>
+						</object>
+						</td>
+						<td>
+							<table border="0">
+								<tr>
+									<a href="photos/BS_carrier.png" rel="lightbox[Backscatter]" title="Screenshot of Spectrum Analyzer when the semipassive tag is off. Only strong carrier at 860MHz from RF Signal Generator is received."><img src="thumbs/BS_carrier.jpg" alt="" height="98" /></a>
+								</tr>
+
+								<tr>
+									<a href="photos/BS_subcarrier.png" rel="lightbox[Backscatter]" title="Screenshot of Spectrum Analyzer when the semipassive tag is on. Strong carrier at 860MHz from RF Signal Generator, along with backscattered subcarriers at 859.75/860.25MHz are received."><img src="thumbs/BS_subcarrier.jpg" alt="" height="98" /></a>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+
+
+
+			</p>
+
+			<p><strong>UPDATE</strong> (Nov 2011): Complete setup fully functional with custom tag &amp; sensors. Diploma thesis demonstrated at ECE, TUC.
+			</p>
+
+			<p>
+				<table border="0">
+					<tr>
+						<td>
+							<object width="300" height="200"><param name="WMode" value="transparent"></param><param name="movie" 			value="http://www.youtube.com/v/PtQJsjgPvD8?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed wmode="transparent" src="http://www.youtube.com/v/PtQJsjgPvD8?fs=1&amp;hl=en_US"    type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="300" height="200"></embed>
+						</object>
+						</td>
+						<td>
+							<table border="0">
+								<tr>
+									<a href="photos/tag_plant.jpg" rel="lightbox[Backscatter]" title="Custom semipassive tag with cheap moisture sensor made of plaster placed on plant."><img src="thumbs/tag_plant.jpg" alt="" height="200" /></a>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</p>
+
+			<p><strong>UPDATE</strong> (2013): Full experimental setup has been built with non-conventional bistatic reader architectures, that achieve backscatter communication with ranges over 130m! Master thesis demonstrated at ECE, TUC.
+			</p>
+
+
+
+
+
+
+
+
+
+
+			<a name="audio_GPS" />
+			<h2>Indoor Audio GPS</h2>
+			<p>The Indoor Audio GPS is a simple localization testbed using acoustic waves and the iCubes Wireless Sensor Network platform. The goal is to localize a moving vehicle indoors with low-cost communication hardware. The system consists of four parts: 4
+				ceiling (anchor) nodes, the vehicle to be localized, a coordinator node and a PC. The vehicle is a toy-car equipped with a microphone, an acoustic bandpass filter and a C8051f320 Development Kit, interfaced to a CC2500 radio module. Location is estimated
+				with the use of convex optimization algorithms running on a PC. The provided testbed is designed with low-cost, custom audio ranging electronics, RF communication and easy-to-use, Matlab interface that allows quick experimentation with various localization
+				algorithms.
+			</p>
+
+			<p><a href="http://www.telecom.tuc.gr/~aggelos/tel412_fall2011">Project Website</a>
+			</p>
+
+
+			<p>
+				<a href="photos/AGPS_car.png" rel="lightbox[AGPS]" title="The toy-car to be localized, carrying low-cost audio electronics, and MCU/radio hardware."><img src="thumbs/AGPS_car.png" alt="" height="100" /></a>
+				<a href="photos/AGPS_diagram.png" rel="lightbox[AGPS]" title="Block diagram of the Indoor Audio GPS system."><img src="thumbs/AGPS_diagram.png" alt="" height="100" /></a>
+				<a href="photos/AGPS_gui.png" rel="lightbox[AGPS]" title="Visualization of the car's estimated position in Matlab."><img src="thumbs/AGPS_gui.png" alt="" height="100" /></a>
+			</p>
+
+
+
+
+
+
+			<a name="analog_backscatter_sensor" />
+			<h2>Simple "Analog" Sensor for Backscatter Sensor Networks</h2>
+			<p>An ultra low-cost and low-power environment sensor has been built, that conveys humidity data to a central station through backscattering. The sensor is essentially a semipassive RF tag that employs only a simple timer circuit and passive components;
+				i.e. no microcontroller unit (MCU) or other complex digital logic is utilized. In that way, the sensor is the backscatter modulator.
+			</p>
+			<p>Exploitation of backscatter communication and simple electronics, instead of active radio architectures and complex control logic, reduces the energy requirements and manufacturing cost by one to two orders of magnitude. The design offers simple networking
+				based on frequency division multiple access (FDMA), by proper selection of the accompanying passive components. The proposed design can serve as a practical solution for dense, low-cost environmental sensing applications with low-cost, commodity receivers.
+			</p>
+
+			<p>
+				<a href="photos/ABS_field_and_sensors.png" rel="lightbox[ABS]" title="Field with low-cost backscatter sensors, carrier generator, and centralized reader."><img src="thumbs/ABS_field_and_sensors.png" alt="" height="90" /></a>
+				<a href="photos/ABS_spectrum.png" rel="lightbox[ABS]" title="Analog backscatter sensor spectrum (FM-like)."><img src="thumbs/ABS_spectrum.png" alt="" height="80" /></a>
+				<a href="photos/ABS_sensors_FDMA.png" rel="lightbox[ABS]" title="FDMA of environmental backscatter sensors."><img src="thumbs/ABS_sensors_FDMA.png" alt="" height="80" /></a>
+			</p>
+
+
+
+
+
+
+
+
+
+
+			<a name="SDR_iCubes" />
+			<h2>Software Defined Radio &amp WSNs</h2>
+			<p>Exploitation of Software-Defined Radio (SDR) platforms to study various communication schemes between WSN Nodes and reconfigurable software-defined Base Stations. Various modulation schemes of the iCubes are exploited and signal processing for each
+				scheme is accomplished with the use of Ettus USRPs and MATLAB code.
+			</p>
+			<p>Recent work includes a non-coherent FSK demodulator/decoder completely coded on MATLAB, for reception of WSN signals that utilize zero-feedback collaborative beamforming (collaboration with <a href="http://www.acsu.buffalo.edu/~gsklivan/">George Sklivanitis</a>).
+				An OOK demodulator has also been developed, while an MSK receiver is currently under study.
+			</p>
+
+			<p>
+				<a href="photos/USRPs.jpg" rel="lightbox[SDR]" title="Telecom Lab's armada of Ettus USRP Software Defined Radios."><img src="thumbs/USRPs.jpg" alt="" height="100" /></a>
+				<a href="photos/USRP_iCubes.png" rel="lightbox[SDR]" title="A USRP SDR Base Station along with iCubes WSN Nodes, consisting a SDR-empowered WSN"><img src="thumbs/USRP_iCubes.jpg" alt="" height="100" /></a>
+				<a href="photos/USRP_fft_fsk.png" rel="lightbox[SDR]" title="USRP-captured spectrum of an iCube transmission. FSK modulation scheme can be observed."><img src="thumbs/USRP_fft_fsk.png" alt="" height="100" /></a>
+			</p>
+
+
+
+
+
+
+
+
+
+
+			<a name="iCubes" />
+			<h2>The iCubes Project</h2>
+			<p>With <a href=http://users.isc.tuc.gr/~ekabianakis>Eleftherios Kampianakis</a>, <a href="http://www.acsu.buffalo.edu/~gsklivan/">George Sklivanitis</a>,
+				<a href="http://users.isc.tuc.gr/~ktountas">Konstantinos Tountas</a>, <a href="http://www.buffalo.edu/~pmarkopo">Panagiotis Markopoulos</a>, and under the motivation and guidance of Prof. <a href="http://www.telecom.tuc.gr/~aggelos">Aggelos Bletsas</a>,
+				we developed from scratch low-cost, energy-efficient RF transceivers for Wireless Sensor Networks, called "The iCubes".
+			</p>
+
+			<p>The wireless nodes consist of a SiLabs C8051F320 MCU, a TI/Chipcon CC2500 radio module, along with a battery holder and sensor connectors, placed on a Printed Circuit Board (PCB) designed by our group and soldered in-house. Routing protocols, sensor
+				software interfaces and other applications have been developed. A multi-hop WSN on ECE department's roof garden has been tested, to evaluate the performance of iCubes in environmental applications.
+			</p>
+
+			<p>The iCubes started as a term project of the "TEL404 Analysis & Design (Synthesis) of Telecom Modules" course during the Spring 2010 semester. Since then, the group has continued to develop node firmware and applications. Low-power custom humidity sensors
+				have been also developed and interfaced to the iCubes.
+			</p>
+
+			<p><a href="http://www.telecom.tuc.gr/~aggelos/tel404_spring2010">Project Website</a>
+			</p>
+
+			<p>
+				<a href="photos/iCube.jpg" rel="lightbox[iCubes]" title="Complete iCube Node along with Node PCB, designed by our group."><img src="thumbs/iCube.jpg" alt="" height="100" /></a>
+				<a href="photos/roofGarden.jpg" rel="lightbox[iCubes]" title="ECE Department's Roof Garden, where an iCubes environmental WSN was tested."><img src="thumbs/roofGarden.jpg" alt="" height="100" /></a>
+				<a href="photos/iCube_PCB.jpg" rel="lightbox[iCubes]" title="The iCube's PCB Layout."><img src="thumbs/iCube_PCB.jpg" alt="" height="100" /></a>
+			</p>
+
+
+			<a name="DEYAX" />
+			<h2>RF Link for The Municipal Water Supply Company of Chania</h2>
+			<p>With <a href="http://users.isc.tuc.gr/~ekabianakis">Eleftherios Kampianakis</a>, we implemented a point-to-point RF link for the
+				<a href="http://www.deyax.org.gr/">Municipal Water Supply Company of Chania</a>. Water tank level data from a already-installed sensor had to be transmitted wirelessly to the Company's facilities, as there was no infrastructure for current-loop cables
+				installation. The distance between the two nodes utilized was approcimately 450 meters.
+			</p>
+			<p>One wireless node served as the transmitter, utilizing on-chip Analog to Digital Converter and simple circuitry to acquire sensor data. The information was transmitted to a second node, which output the sensor's measured value on a digital port. A
+				custom Digital to Analog Converter was built, plus a Voltage Controlled Current Source, to achieve output of 4-20mA current values, in order to ensure compatibility with the Company's PLC units. Protocol-specific functions were implemented, such as
+				alerts of broken link and/or sensor, in the form of 0mA output current.
+			</p>
+
+			<p>The nodes along with the respective circuitry were packaged in high quality waterproof IP65 boxes to prevent dust and water from affecting the electronics.
+			</p>
+
+			<p>
+				<a href="photos/DEYAX.jpg" rel="lightbox[DEYAX]" title="RF Link Transmitter and Receiver packaged in waterproof boxes."><img src="thumbs/DEYAX.jpg" alt="" height="100" /></a>
+				<a href="photos/DEYAX_link.jpg" rel="lightbox[DEYAX]" title="Tx and Rx Locations on Map. Distance is approximately 450 meters."><img src="thumbs/DEYAX_link.jpg" alt="" height="100" /></a>
+				<a href="photos/DEYAX_transmitter.jpg" rel="lightbox[DEYAX]" title="Transmitting part of the Link. Box holding transmitter and sensor circuitry mounted on DEYAX water tank building's roof."><img src="thumbs/DEYAX_transmitter.jpg" alt="" height="100" /></a>
+			</p>
+
+
+
+
+
+		</div>
+		<div id="colTwo">
+			<h2>Projects &amp Demos</h2>
+			<p>Here you can find a list of the projects I am working on. Photos and demo videos provided.</p>
+
+		</div>
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<div id="footer">
+		<p>2016 John Kimionis, <a href="http://www.gatech.edu">Georgia Institute of Technology</a></p>
+	</div>
+</body>
+
+</html>
